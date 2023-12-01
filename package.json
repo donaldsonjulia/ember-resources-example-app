@@ -2,7 +2,7 @@
   "name": "ember-resources-example-app",
   "version": "0.0.0",
   "private": true,
-  "description": "Small description for ember-resources-example-app goes here",
+  "description": "An example app for ember-resources",
   "repository": "",
   "license": "MIT",
   "author": "",
@@ -31,8 +31,16 @@
     "@ember/optional-features": "^2.0.0",
     "@ember/string": "^3.1.1",
     "@ember/test-helpers": "^3.2.0",
+    "@embroider/compat": "^3.4.0",
+    "@embroider/core": "^3.4.2",
+    "@embroider/webpack": "^3.2.1",
     "@glimmer/component": "^1.1.2",
     "@glimmer/tracking": "^1.1.2",
+    "@glint/core": "^1.2.1",
+    "@glint/environment-ember-loose": "^1.2.1",
+    "@glint/environment-ember-template-imports": "^1.2.1",
+    "@glint/template": "^1.2.1",
+    "@tsconfig/ember": "^3.0.2",
     "broccoli-asset-rev": "^3.0.0",
     "concurrently": "^8.2.2",
     "ember-auto-import": "^2.6.3",
@@ -52,9 +60,10 @@
     "ember-page-title": "^8.0.0",
     "ember-qunit": "^8.0.1",
     "ember-resolver": "^11.0.1",
+    "ember-route-template": "^1.0.3",
     "ember-source": "~5.4.0",
+    "ember-template-imports": "^4.0.0",
     "ember-template-lint": "^5.11.2",
-    "ember-welcome-page": "^7.0.2",
     "eslint": "^8.52.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-ember": "^11.11.1",
@@ -69,10 +78,13 @@
     "stylelint-config-standard": "^34.0.0",
     "stylelint-prettier": "^4.0.2",
     "tracked-built-ins": "^3.3.0",
+    "typescript": "^5.3.2",
     "webpack": "^5.89.0"
   },
   "engines": {
-    "node": ">= 18"
+    "node": ">= 18",
+    "yarn": "use pnpm",
+    "npm": "use pnpm"
   },
   "ember": {
     "edition": "octane"
